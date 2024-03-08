@@ -1,5 +1,6 @@
 
 import ArComponent from './Components/ArComponent'
+import VidComponent from './Components/VidComponent'
 import './App.css'
 
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      <ArComponent markerPath="/Patterns/pattern-A.patt" modelPath="/Puppy/scene.gltf" scale="3 3 3" position="0 0 0" rotation="180 270 90" />
+      <VidComponent markerpath="/Patterns/pattern-A.patt" VidPath="/Images/video (10).mp4" scale="3 3 3" position="0 0 0" rotation="90 180 0" />
       
     </>
   )

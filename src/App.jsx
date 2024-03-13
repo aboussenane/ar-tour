@@ -1,4 +1,6 @@
-
+//state variable for isDisplayed
+//if isDisplayed -> link pause/play, scale buttons
+//if playing -> pause + vice versa
 import ArComponent from './Components/ArComponent'
 import VidComponent from './Components/VidComponent'
 import './App.css'

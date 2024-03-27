@@ -26,14 +26,14 @@ function VidComponent({ markerPath, VidPath, position, rotation }) {
       }
     }
   };
-  
+  /*preset='custom' url={markerPath}*/
   return (
     <div>
       <Scene arjs='sourceType: webcam; smoothing: true; smoothingAmount: 0.9;'>
         <a-assets>
           <video id="video" src={VidPath} loop></video>
         </a-assets>
-        <a-marker preset='custom' url={markerPath}>
+        <a-marker preset='hiro'>
           <a-video
             src="#video"
             scale={`${scale.x} ${scale.y} ${scale.z}`}
